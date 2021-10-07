@@ -1,0 +1,37 @@
+﻿@using Heroi_IconsClassLibrary.Models
+@using Heroi_IconsClassLibrary.Dictionnaries
+
+@if (Icon is not null)
+{
+  <svg xmlns="http://www.w3.org/2000/svg" 
+       class="@Class" 
+       fill="none"
+       viewBox="@Icon.ViewBox" 
+       stroke="currentColor">
+    @foreach (var path in Icon.Paths)
+    {
+      <path d="@path.D" 
+            stroke-linecap="@path.StrokeLineCap" 
+            stroke-linejoin="@path.StrokeLineJoin" 
+            stroke-width="@path.StrokeWidth" />
+    }
+  </svg>
+}
+
+@code{
+
+  [Parameter]
+  public IconType IconType { get; set; } = IconType.AcademicCap;
+
+  [Parameter]
+  public string Class { get; set; } = "h-5 w-5";
+  
+  private Icon Icon { get; set; }
+
+  protected override void OnParametersSet()
+  {
+    Icon = IconType.GetOutlinedIcon();
+    base.OnParametersSet();
+  }
+
+}
