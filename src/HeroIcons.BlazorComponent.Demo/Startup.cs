@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace HeroIcons.BlazorComponent
+namespace HeroIcons.BlazorComponent.Demo
 {
     public class Startup
     {

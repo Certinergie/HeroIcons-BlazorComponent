@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Heroi_IconsClassLibrary.Models
+namespace HeroIcons.BlazorComponent.Models
 {
     public class Icon
     {

@@ -2,11 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>HeroIcons.BlazorComponent</RootNamespace>
+        <RootNamespace>HeroIcons.BlazorComponent.Demo</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Heroi-IconsClassLibrary\Heroi-IconsClassLibrary.csproj" />
+      <ProjectReference Include="..\HeroIcons.BlazorComponent\HeroIcons.BlazorComponent.csproj" />
     </ItemGroup>
 
     <ItemGroup>

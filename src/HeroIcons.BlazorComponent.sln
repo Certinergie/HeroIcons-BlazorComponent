@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heroi-IconsClassLibrary", "Heroi-IconsClassLibrary\Heroi-IconsClassLibrary.csproj", "{C89D2A0A-95D9-4AAF-907E-91D5F706D37D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroIcons.BlazorComponent", "HeroIcons.BlazorComponent\HeroIcons.BlazorComponent.csproj", "{C89D2A0A-95D9-4AAF-907E-91D5F706D37D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heroi-Icons", "Heroi-Icons\Heroi-Icons.csproj", "{620FC5B3-EA71-484A-8A80-BFDBA38BBC06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroIcons.BlazorComponent.Demo", "HeroIcons.BlazorComponent.Demo\HeroIcons.BlazorComponent.Demo.csproj", "{620FC5B3-EA71-484A-8A80-BFDBA38BBC06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

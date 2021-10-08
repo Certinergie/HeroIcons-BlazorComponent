@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Heroi_IconsClassLibrary.Models;
+using HeroIcons.BlazorComponent.Models;
 
-namespace Heroi_IconsClassLibrary.Dictionnaries
+namespace HeroIcons.BlazorComponent.Dictionnaries
 {
     internal static class OutlinedIcons
     {

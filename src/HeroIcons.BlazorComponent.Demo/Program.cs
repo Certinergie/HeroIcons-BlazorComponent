@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace HeroIcons.BlazorComponent
+namespace HeroIcons.BlazorComponent.Demo
 {
     public class Program
     {
