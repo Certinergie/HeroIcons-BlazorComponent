@@ -18,7 +18,11 @@ HeroIcons is a library for creating icons for the **Hero** component.   It is a 
 Our component is available on NuGet.org.   You can install it by running the following command:
 >```
 >dotnet add package Certinergie.HeroIcons.Blazor
->``` 
+>```
+
+## Available icons
+
+[See list](available-icons.md)
 
 ## Versioning
 
