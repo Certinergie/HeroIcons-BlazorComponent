@@ -96,6 +96,111 @@ namespace HeroIcons.BlazorComponent.Dictionnaries
                     }
                 },
                 ViewBox = "0 0 24 24"
+            },
+            new()
+            {
+                Type = IconType.ArrowCircleLeft,
+                Paths = new List<Path>
+                {
+                    new()
+                    {
+                        D = "M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z",
+                        StrokeLineCap = "round",
+                        StrokeLineJoin = "round",
+                        StrokeWidth = 2
+                    }
+                },
+                ViewBox = "0 0 24 24"
+            },
+            new()
+            {
+                Type = IconType.ArrowCircleRight,
+                Paths = new List<Path>
+                {
+                    new()
+                    {
+                        D = "M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z",
+                        StrokeLineCap = "round",
+                        StrokeLineJoin = "round",
+                        StrokeWidth = 2
+                    }
+                },
+                ViewBox = "0 0 24 24"
+            },
+            new()
+            {
+                Type = IconType.ArrowCircleUp,
+                Paths = new List<Path>
+                {
+                    new()
+                    {
+                        D = "M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z",
+                        StrokeLineCap = "round",
+                        StrokeLineJoin = "round",
+                        StrokeWidth = 2
+                    }
+                },
+                ViewBox = "0 0 24 24"
+            },
+            new()
+            {
+                Type = IconType.ArrowDown,
+                Paths = new List<Path>
+                {
+                    new()
+                    {
+                        D = "M19 14l-7 7m0 0l-7-7m7 7V3",
+                        StrokeLineCap = "round",
+                        StrokeLineJoin = "round",
+                        StrokeWidth = 2
+                    }
+                },
+                ViewBox = "0 0 24 24"
+            },
+            new()
+            {
+                Type = IconType.ArrowLeft,
+                Paths = new List<Path>
+                {
+                    new()
+                    {
+                        D = "M10 19l-7-7m0 0l7-7m-7 7h18",
+                        StrokeLineCap = "round",
+                        StrokeLineJoin = "round",
+                        StrokeWidth = 2
+                    }
+                },
+                ViewBox = "0 0 24 24"
+            },
+            new()
+            {
+                Type = IconType.ArrowRight,
+                Paths = new List<Path>
+                {
+                    new()
+                    {
+                        D = "M14 5l7 7m0 0l-7 7m7-7H3",
+                        StrokeLineCap = "round",
+                        StrokeLineJoin = "round",
+                        StrokeWidth = 2
+                    }
+                },
+                ViewBox = "0 0 24 24"
+            },
+            new()
+            {
+                Type = IconType.ArrowUp,
+                Paths = new List<Path>
+                {
+                    new()
+                    {
+                        D = "M5 10l7-7m0 0l7 7m-7-7v18",
+                        StrokeLineCap = "round",
+                        StrokeLineJoin = "round",
+                        StrokeWidth = 2
+                    }
+                },
+                ViewBox = "0 0 24 24"
             }
         };
 

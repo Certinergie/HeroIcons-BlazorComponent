@@ -1,3 +1,4 @@
+using HeroIcons.BlazorComponent.Demo.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +22,8 @@ namespace HeroIcons.BlazorComponent.Demo
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            
+            services.AddScoped<ClipboardService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

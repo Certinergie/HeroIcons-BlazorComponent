@@ -6,6 +6,13 @@
         Adjustments,
         Annotation,
         Archive,
-        ArrowCircleDown
+        ArrowCircleDown,
+        ArrowCircleLeft,
+        ArrowCircleRight,
+        ArrowCircleUp,
+        ArrowDown,
+        ArrowLeft,
+        ArrowRight,
+        ArrowUp
     }
 }

@@ -1,11 +1,13 @@
 @page "/"
 @using HeroIcons.BlazorComponent
 
+<span class="header__presentation">Click on an icon to copy the corresponding tag to your clipboard</span>
+
 <div class="icons">
   
   @foreach (var (iconName, iconType) in Icons)
   {
-    <div class="icon">
+    <div class="icon" @onclick="() => Callback(iconType)">
       <IconComponent IconType="@iconType"/>
       <span>@iconName</span>
     </div>
